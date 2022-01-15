@@ -1,0 +1,8 @@
+안심비대면 프로젝트 중   
+Websquare   
+삭제 버튼을 눌렀을 시 그리드 행 삭제가 deleteRow로 안되길래    
+찾아본 결과 deleteRow는 행표시를 d 로 변경하는거였고    
+실제 행 삭제는 dataList.removeRow(행 인덱스) 였다...   
+  
+출처 : https://kmhan.tistory.com/412     
+     
