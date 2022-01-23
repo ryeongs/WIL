@@ -14,7 +14,7 @@
   - StringBuffer는 각 메서드별로 Synchronized Keyword가 존재하여, 멀티스레드 환경에서도 동기화를 지원
      반면, StringBuilder는 동기화를 보정하지 않음.
 
-###결론
+### 결론
 1. String은 짧은 문자열을 더할 경우 사용
 2. StringBuffer는 스레드에 안전한 프로그램이 필요할 떄나, 개발 중인 시스템의 부분이 스레드에 안전한지 모를 경우 사용하면 좋다.
 3. StringBuilder는 스레드에 안전한지 여부가 전혀 관계 없는 프로그램을 개발할 때 사용하면 좋다.
