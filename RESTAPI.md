@@ -4,7 +4,9 @@
 * API 또는 애플리케이션 프로그래밍 인터페이스는 애플리케이션이나 디바이스가 서로 간에 연결하여 통신할 수 있는  방법을 정의하는 규칙 세트.
 REST API는 REST(REpresentational State Transfer) 아키텍처 스타일의 디자인 원칙을 준수하는 API 이다.    
 이러한 이유 때문에 REST API를 종종 RESTful API라고도 한다.      
+> HTTP URI(Uniform Resource Identifier)를 통해 자원(Resource)을 명시하고, HTTP Method(POST, GET, PUT, DELETE)를 통해 해당 자원에 대한 CRUD Operation을 적용하는 것을 의미한다.
 
+https://gmlwjd9405.github.io/2018/09/21/rest-and-restful.html
 
 ### REST 디자인 원칙
 1. 균일한 인터페이스
