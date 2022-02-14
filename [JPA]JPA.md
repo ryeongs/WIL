@@ -10,7 +10,7 @@
 1. 생산성
  -  JPA를 사용하면 다음 코드처럼 자바 컬렉션에 객체를 저장하듯이 JPA에게 저장할 객체를 전달하면 된다. INSET SQL을 작성하고 JDBC API를 사용하는 지루하고 반복적인 일은 JPA가 대신 처리한다.
  > jpa.persist(member); // 저장
- > Member member = jpa.find(memberId); // 조회
+ > Member member = jpa.find(memberId); // 조회   
  - 따라서 반복적인 코드와 CRUD용 SQL을 개발자가 직접 작성하지 않아도 된다. 
 2. 유지보수
  - SQL에 의존적인 개발에서도 이야기했듯이 SQL을 직접 다루면 엔티티에 필드를 하나만 추가해도 관련된 등록, 수정, 조회 SQL과 결과를 매핑하기 위한 JDBC API 코드를 모두 변경해야 했다.   반면에 JPA응 사용하면 이런 과정을 JPA가 대신 처리해주므로 필드를 추가하거나 삭제해도 수정해야할 코드가 줄어든다.
